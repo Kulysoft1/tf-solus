@@ -7,7 +7,7 @@ import (
 	"flag"
 	"log"
 
-	"github.com/solusio/terraform-provider-solus/internal/provider"
+	"github.com/Kulysoft1/tf-solus/internal/provider"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/plugin"
 )
