@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/solusio/terraform-provider-solus/internal/timer"
+	"github.com/Kulysoft1/tf-solus/internal/timer"
 
 	"github.com/hashicorp/terraform-plugin-log/tflog"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
-	"github.com/solusio/solus-go-sdk"
+	"github.com/Kulysoft1/tf-solus-sdk"
 )
 
 func resourceVirtualServer() *schema.Resource {

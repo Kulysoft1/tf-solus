@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/solusio/solus-go-sdk"
+	"github.com/Kulysoft1/tf-solus-sdk"
 )
 
 var (

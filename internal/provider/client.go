@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/solusio/solus-go-sdk"
+	"github.com/Kulysoft1/tf-solus-sdk"
 )
 
 type client struct {

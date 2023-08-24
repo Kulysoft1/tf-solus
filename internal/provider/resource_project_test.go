@@ -8,7 +8,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/solusio/solus-go-sdk"
+	"github.com/Kulysoft1/tf-solus-sdk"
 )
 
 func TestAccResourceProject(t *testing.T) {

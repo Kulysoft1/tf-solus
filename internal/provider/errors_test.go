@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/solusio/solus-go-sdk"
+	"github.com/Kulysoft1/tf-solus-sdk"
 	"github.com/stretchr/testify/assert"
 )
 

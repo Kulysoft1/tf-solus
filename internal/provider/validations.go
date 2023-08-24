@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/solusio/solus-go-sdk"
+	"github.com/Kulysoft1/tf-solus-sdk"
 )
 
 // validationIsDomainName checks that specified value is valid domain name.
