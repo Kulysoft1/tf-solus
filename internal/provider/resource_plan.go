@@ -25,11 +25,11 @@ func resourcePlan() *schema.Resource {
 				string(solus.BandwidthPlanLimitUnitGbps),
 			},
 			solus.TrafficPlanLimit{}: {
-				string(solus.TrafficPlanLimitUnitKB),
-				string(solus.TrafficPlanLimitUnitMB),
-				string(solus.TrafficPlanLimitUnitGB),
-				string(solus.TrafficPlanLimitUnitTB),
-				string(solus.TrafficPlanLimitUnitPB),
+				string(solus.TrafficPlanLimitUnitKiB),
+				string(solus.TrafficPlanLimitUnitMiB),
+				string(solus.TrafficPlanLimitUnitGiB),
+				string(solus.TrafficPlanLimitUnitTiB),
+				string(solus.TrafficPlanLimitUnitPiB),
 			},
 			solus.UnitPlanLimit{}: {
 				string(solus.PlanLimitUnits),
@@ -612,7 +612,7 @@ func defaultLimitUnit(t interface{}) string {
 		solus.DiskBandwidthPlanLimit{}: string(solus.DiskBandwidthPlanLimitUnitBps),
 		solus.DiskIOPSPlanLimit{}:      string(solus.DiskIOPSPlanLimitUnitIOPS),
 		solus.BandwidthPlanLimit{}:     string(solus.BandwidthPlanLimitUnitMbps),
-		solus.TrafficPlanLimit{}:       string(solus.TrafficPlanLimitUnitGB),
+		solus.TrafficPlanLimit{}:       string(solus.TrafficPlanLimitUnitGiB),
 		solus.UnitPlanLimit{}:          string(solus.PlanLimitUnits),
 	}
 
