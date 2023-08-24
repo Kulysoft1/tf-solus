@@ -147,24 +147,24 @@ type TrafficPlanLimitUnit string
 //goland:noinspection GoUnusedConst
 const (
 	// TrafficPlanLimitUnitKB indicates kilobytes unit.
-	TrafficPlanLimitUnitKB TrafficPlanLimitUnit = "KB"
+	TrafficPlanLimitUnitKB TrafficPlanLimitUnit = "KiB"
 
 	// TrafficPlanLimitUnitMB indicates megabytes unit.
-	TrafficPlanLimitUnitMB TrafficPlanLimitUnit = "MB"
+	TrafficPlanLimitUnitMB TrafficPlanLimitUnit = "MiB"
 
 	// TrafficPlanLimitUnitGB indicates gigabytes unit.
-	TrafficPlanLimitUnitGB TrafficPlanLimitUnit = "GB"
+	TrafficPlanLimitUnitGB TrafficPlanLimitUnit = "GiB"
 
 	// TrafficPlanLimitUnitTB indicates terabytes unit.
-	TrafficPlanLimitUnitTB TrafficPlanLimitUnit = "TB"
+	TrafficPlanLimitUnitTB TrafficPlanLimitUnit = "TiB"
 
 	// TrafficPlanLimitUnitPB indicates petabytes unit.
-	TrafficPlanLimitUnitPB TrafficPlanLimitUnit = "PB"
+	TrafficPlanLimitUnitPB TrafficPlanLimitUnit = "PiB"
 )
 
 func (s *TrafficPlanLimit) setDefault() {
 	if s.Unit == "" {
-		s.Unit = TrafficPlanLimitUnitKB
+		s.Unit = TrafficPlanLimitUnitKiB
 	}
 }
 
